@@ -9,14 +9,17 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 </head>
 <body>
   	<!-- HEADER -->
-	<div class="head" style="width: 100%">
-		<p class="header1">Luviana Dewi Indirasari</p>
-		<p class="header2">A GIRL, A STUDENT, A PROGRAMMER, <br> AND A DREAMER</p>
+	<div class="head" id="header" style="width: 100%">
+		<h3>Luviana Dewi Indirasari</h3>
+		<p>A GIRL, A STUDENT, A PROGRAMMER, <br> AND A DREAMER</p>
 		<a href="#services">
-			<img src="./img/button1.png" class="button1">
+			<center>
+				<img src="./img/button1.png" class="button1">
+			</center>
 		</a>
 	</div>
 	
@@ -31,11 +34,11 @@
 	    		</div>
 	    		<div class="collapse navbar-collapse" id="myNavbar">
 	      			<ul class="nav navbar-nav">
-	        			<li class="active"><a href="#">HOME</a></li>
-	        			<li><a href="#">SERVICES</a></li>
-	        			<li><a href="#">ABOUT ME</a></li> 
-	        			<li><a href="#">PORTFOLIO</a></li> 
-	        			<li><a href="#">CONTACT</a></li> 
+	        			<li><a href="#header">HOME</a></li>
+	        			<li><a href="#services">SERVICES</a></li>
+	        			<li><a href="#about">ABOUT ME</a></li> 
+	        			<li><a href="#portfolio">PORTFOLIO</a></li> 
+	        			<li><a href="#footer">CONTACT</a></li> 
 	      			</ul>
 	    		</div>
 	  		</div>
@@ -47,22 +50,22 @@
 				<div class="row">
 					<p class="sub-tittle">SERVICES</p>
 						<div class="col-md-4">
-							<div style="width: 100%; height: 200px;">
+							<div class="service_item">
 								<img src="./img/icon_program.png" class="img_serv">
+								<p>PROGRAMMING</p>
 							</div><br>
-							<p class="col-md-4 text_serv1">PROGRAMMING</p>
 						</div>
 						<div class="col-md-4">
-							<div style="width: 100%; height: 200px;">
+							<div class="service_item">
 								<img src="./img/icon_design.png" class="img_serv">
+								<p>DESIGN</p>
 							</div><br>
-							<p class="col-md-4 text_serv2">DESIGN</p>
 						</div>
 						<div class="col-md-4">
-							<div style="width: 100%; height: 200px;">
+							<div class="service_item">
 								<img src="./img/icon_network.png" class="img_serv">
+								<p>NETWORKING</p>
 							</div><br>
-							<p class="col-md-4 text_serv3">NETWORKING</p>
 						</div>
 				</div>
 			</div>
@@ -98,8 +101,8 @@
 			<div class="container">
 				<div class="row">
 					<p class="sub-tittle" style=" margin-top: 170px">MY PORTFOLIO</p>
-					<div class="col-md-12" style="margin-top: 30px;">	
-						<div id ="myCarousel" class="carousel slide" data-ride="carousel">
+					<div class="col-md-8 col-md-offset-2" style="margin-top: 30px;">	
+						<div id ="myCarousel" class="carousel slide" data-ride="carousel" style=" width: 100% !important;">
 							<ol class="carousel-indicators">
 		      					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		      					<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -117,12 +120,14 @@
 		      					</div>
 		    				</div>
 						</div>
-						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		      				<img src="./img/button2.png" class="button2 button23">
-		    			</a>
-						<a class="left carousel-control" href="#myCarousel" data-slide="next">
-		      				<img src="./img/button3.png" class="button3 button23">
-		    			</a>
+						<div class="button23">
+							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			      				<img src="./img/button2.png" class="button2">
+			    			</a>
+							<a class="left carousel-control" href="#myCarousel" data-slide="next">
+			      				<img src="./img/button3.png" class="button3">
+			    			</a>
+		    			</div>
 					</div>
 				</div>
 			</div>
