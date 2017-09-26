@@ -1,27 +1,8 @@
-@media only screen and (min-width: 768) {
+@media only screen and (max-width: 768px) and (min-width: 100px) {
 	
-	.header1 {
-		position: absolute;
-		bottom: 340px;
-		left: 320px;
-		font-family: Blueline Paradise, Script MT Bold, cursive;
-		font-size: 30px !important;
-	}
-
-	.header2 {
-		position: absolute;
-		bottom: 200px;
-		left: 430px;
-		font-family: Agency FB, sans-serif;
-		font-size: 230%;
-		text-align: center;
-		word-spacing: 15px;
-		font-weight: bold;
-	}
-
 	.head h3 {
 		position: relative;
-		top: 180px !important;
+		top: 130px !important;
 		font-family: Blueline Paradise, Script MT Bold, cursive;
 		font-size: 90px;
 		text-align: center;
@@ -29,12 +10,19 @@
 
 	.head p {
 		position: relative;
-		top: 200px;
+		top: 170px;
 		font-family: Agency FB, sans-serif;
 		font-size: 35px;
 		text-align: center;
 		word-spacing: 15px;
 		font-weight: bold;
+	}
+
+	.button1 {
+		width: 200px;
+		height: 80px;
+		position: relative;
+		top: 210px;
 	}
 
 	.img_portofolio {
@@ -45,7 +33,6 @@
 		margin-right: 30px;	
 		left: 130px;
 	}
-
 	.button23 {
 		text-align: center;
 		margin-left: 100px !important;
